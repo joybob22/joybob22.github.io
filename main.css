@@ -10,8 +10,8 @@ html, body, h1, h2, h3, p, div{
 h1 {
     font-weight: bold;
     font-size: 60px;
-    color: #000099;
-    font-family: "Agency FB";
+    color: #00264d;
+    font-family: "Agency FB", "century";
     padding-bottom: 5px;
 }
 
@@ -19,22 +19,29 @@ h1 {
 .header {
     text-align: left;
     padding-left: 10px;
-    transition: color 0.7s;
+    background: linear-gradient(to top, #1a8cff, #99ccff);
+    transition: all 0.7s;
 }
 
 .header:hover {
     color: #0000e6;
+    text-shadow: 1px 1px #0000e1;
 }
 
 nav {
     height: 45px;
-    background-color: #cccccc;
-    box-shadow: 3px 2px 5px #aaaaaa;
+    background-color: #00264d;
 }
 
 .packers {
     margin: -208px -200px -200px -200px;
     float: right;
+}
+
+
+.nav p {
+    color: #1a8cff;
+    transition: all 0.6s;
 }
 
 .nav {
@@ -44,42 +51,55 @@ nav {
     padding-top: 15px;
     position: absolute;
     height: 30px;
-    transition: background-color 0.6s;
-    background-color: #cccccc;
-    
+    transition: all 0.6s;
+
 }
 
 .nav1 {
     width: 100px;
+    text-align: center;
 }
 
 .nav2 {
     width: 100px;
     margin-left: 120px;
+    text-align: center;
 }
 
 .nav3 {
     width: 100px;
     margin-left: 240px;
+    text-align: center;
 }
 
 .nav4 {
     width: 100px;
     margin-left: 360px;
+    text-align: center;
 }
 
 .nav5 {
     width: 100px;
     margin-left: 480px;
+    text-align: center;
 
 }
 
 .nav:hover {
-    background-color: #bbbbbb;
+    background-color: #1a8cff;
+}
+
+.nav p:hover {
+    color: #00264d;
 }
 
 .wrapNav {
     width: 600px;
     height: 45px;
     margin: 0 auto;
+}
+
+main {
+    height: 1000px;
+    background: linear-gradient(to bottom, #1a8cff, #99ccff);
 }
