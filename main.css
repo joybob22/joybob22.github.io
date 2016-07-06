@@ -101,7 +101,6 @@ nav {
 }
 
 main {
-    height: 1000px;
     background: linear-gradient(to bottom, #1a8cff, #99ccff);
 }
 
@@ -141,6 +140,7 @@ h3 {
 
 ul {
     list-style-type: none;
+    display: block;
 }
 
 .snowboardingH2 {
@@ -151,7 +151,8 @@ ul {
 
 .snowboarding {
     float: right;
-    margin-right: 25px;
+    margin-right: 30px;
+    display: block;
 }
 
 li {
@@ -162,8 +163,36 @@ li {
 
 .liSnow {
     width: 500px;
-    position: absolute;
     float: left;
     margin-top: 150px;
     text-align: center;
+}
+
+.snow {
+    overflow: auto;
+    clear: right;
+}
+
+.computerProgrammingH2 {
+    margin: auto;
+    width: 550px;
+}
+
+.codingIMG {
+    float: left;
+    display: block;
+    margin: 25px 0;
+    
+}
+
+.liCode {
+    width: 500px;
+    float: right;
+    margin-top: 190px;
+    text-align: center;
+    margin-right: 30px;
+}
+
+.comp {
+    overflow: auto;
 }
