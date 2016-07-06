@@ -153,6 +153,10 @@ ul {
     float: right;
     margin-right: 30px;
     display: block;
+    border: 5px solid #00264d;
+    margin-bottom: 10px;
+    box-shadow: 3px 3px 7px #00264d;
+    border-radius: 5px;
 }
 
 li {
@@ -166,6 +170,9 @@ li {
     float: left;
     margin-top: 150px;
     text-align: center;
+    padding: 50px;
+    border: 1px solid #00264d;
+    border-radius: 50%;
 }
 
 .snow {
@@ -182,6 +189,9 @@ li {
     float: left;
     display: block;
     margin: 25px 0;
+    border: 5px solid #00264d;
+    box-shadow: 3px 3px 7px #00264d;
+    border-radius: 5px;
     
 }
 
@@ -191,6 +201,9 @@ li {
     margin-top: 190px;
     text-align: center;
     margin-right: 30px;
+    border: 1px solid #00264d;
+    border-radius: 50%;
+    padding: 50px;
 }
 
 .comp {
