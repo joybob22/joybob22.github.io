@@ -12,17 +12,22 @@ h1 {
     color: #00264d;
     font-family: "Agency FB", "century";
     padding-bottom: 5px;
+    transition: all 0.7s;
+    width: 470px;
+}
+
+header {
+    background: linear-gradient(to top, #1a8cff, #99ccff);
 }
 
 
 .header {
     text-align: left;
     padding-left: 10px;
-    background: linear-gradient(to top, #1a8cff, #99ccff);
     transition: all 0.7s;
 }
 
-.header:hover {
+h1:hover {
     color: #0000b3;
     text-shadow: 5px 5px #0000e6;
 }
