@@ -1,0 +1,22 @@
+h2 {
+    width: 300px;
+    margin: auto;
+}
+
+li {
+    margin: 100px;
+}
+
+.left {
+    float: left;
+    margin-bottom: 100px;
+}
+
+.pics {
+    overflow: auto;
+}
+
+.right {
+    float: right;
+    margin-bottom: 100px;
+}
