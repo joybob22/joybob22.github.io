@@ -28,3 +28,8 @@ li {
 .nav2 {
     background-color: #000033;
 }
+
+.photo {
+    width: 1300px;
+    margin: auto;
+}

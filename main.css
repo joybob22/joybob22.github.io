@@ -194,6 +194,8 @@ li {
 .snow {
     overflow: auto;
     clear: right;
+    width: 1300px;
+    margin: auto;
 }
 
 .computerProgrammingH2 {
@@ -217,6 +219,8 @@ li {
 
 .comp {
     overflow: auto;
+    width: 1300px;
+    margin: auto;
 }
 
 .basketballH2 {
@@ -232,6 +236,8 @@ li {
 
 .basketball {
     overflow: auto;
+    width: 1300px;
+    margin: auto;
 }
 
 .liBasketball {
@@ -243,6 +249,8 @@ li {
 
 .photography {
     overflow: auto;
+    width: 1300px;
+    margin: auto;
 }
 
 .photographyH2 {
