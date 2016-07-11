@@ -20,3 +20,11 @@ li {
     float: right;
     margin-bottom: 100px;
 }
+
+.nav1, .nav3, .nav4, .nav5 {
+    background-color: #00264d;
+}
+
+.nav2 {
+    background-color: #000033;
+}

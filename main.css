@@ -47,7 +47,7 @@ nav {
 
 
 .nav p {
-    color: #1a8cff;
+    color: #1aa3ff;
     transition: all 0.6s;
 }
 
@@ -63,6 +63,7 @@ nav {
 
 .nav1 {
     width: 100px;
+    background-color: #000033;
     text-align: center;
 }
 
@@ -93,7 +94,6 @@ nav {
 
 .nav:hover {
     background-color: #1a8cff;
-    color: #00264d;
 }
 
 .nav p:hover {
