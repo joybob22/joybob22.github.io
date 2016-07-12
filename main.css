@@ -110,6 +110,7 @@ nav {
 main {
     background: linear-gradient(to bottom, #1a8cff, #99ccff);
     margin: none;
+    overflow: auto;
 }
 
 .myLife {
