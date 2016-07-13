@@ -1,0 +1,55 @@
+.food {
+    width: 210px;
+    margin: auto;
+}
+
+h3 {
+    text-align: center;
+    width: 690px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.nav1 {
+    background-color: #00264d;
+}
+
+.nav4 {
+    background-color: #000033;
+}
+
+.sushi {
+    width: 220px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+ul ul li:nth-child(2) {
+    border: none;
+    padding: 0px;
+}
+
+.sushi1, .sushi2, .sushi3 {
+    float: left;
+}
+
+.sushi2, .sushi3 {
+    margin-left: 15px;
+}
+
+.section1 {
+    width: 1214px;
+    margin: auto;
+    display: block;
+}
+
+.sushiContent {
+    width: 600px;
+    text-align: center;
+    margin: auto;
+    margin-top: 300px;
+    border: 1px solid #00264d;
+    border-radius: 50%;
+    padding: 50px;
+}
