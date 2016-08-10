@@ -13,6 +13,21 @@ body {
     background: linear-gradient(to bottom, #1a75ff, #006600);
 }
 
+.linkBack {
+    position: absolute;
+    margin-left: 30px;
+    font-size: 20px;
+    margin-top: 20px;
+    color: #000033;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.linkBack:hover {
+    border-bottom: 1px solid #000033;
+    transform: scale(1.2);
+}
+
 h1 {
     margin: 0 auto;
     text-align: center;
