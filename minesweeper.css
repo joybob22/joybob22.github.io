@@ -1,0 +1,254 @@
+html, body, h1, h2, h3, p, div, ul, li, a{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body {
+    height: 1000px;
+    background: linear-gradient(to bottom, #1a75ff, #006600);
+}
+
+h1 {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 40px;
+    color: #002080;
+    font-family: "Algerian", "hobo std";
+    border-bottom: 1px solid #002080;
+    width: 500px
+}
+
+h2 {
+    color: #002080;
+    font-family: "Courier new";
+    font-weight: bold;
+}
+
+.board-body {
+    width: 275px;
+    height: 275px;
+    border: 9px solid #000033;
+    margin: 0 auto;
+    border-radius: 0 0 6px 6px;
+}
+
+li {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    background-color: #4d4dff;
+    border: 1px solid #0000cc;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Letter Gothic std";
+}
+
+.board-head {
+    height: 50px;
+    width: 275px;
+    border-top: 9px solid #000033;
+    border-left: 9px solid #000033;
+    border-right: 9px solid #000033;
+    margin: 0 auto;
+    border-radius: 6px 6px 0 0;
+    margin-top: 40px;
+}
+
+.flag-amount {
+    font-size: 30px;
+    margin-top: 8px;
+    width: 200px;
+    margin-left: 5px;
+    position: absolute;
+}
+
+.reset_button {
+    width: 70px;
+    font-size: 20px;
+    margin-left: 190px;
+    margin-top: 12px;
+    background: linear-gradient(to top, #001a66, #0039e6);
+    text-align: center;
+    border: 1px solid #000033;
+    font-family: "Courier new";
+    
+}
+
+.reset_button:active {
+    background: linear-gradient(to bottom, #001a66, #0039e6);
+}
+
+.version {
+    width: 275px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10px;
+    opacity: 0.5;
+}
+
+/*------------------------------------------
+* position each box
+------------------------------------------*/
+
+.b2 {
+    margin-left: 31px;
+}
+
+.b3 {
+    margin-left: 62px;
+}
+
+.b4 {
+    margin-left: 93px;
+}
+
+.b5 {
+    margin-left: 123px;
+}
+
+.b6 {
+    margin-left: 154px;
+}
+
+.b7 {
+    margin-left: 185px;
+}
+
+.b8 {
+    margin-left: 215px;
+}
+
+.b9 {
+    margin-left: 245px;
+}
+
+/*------------------------------------------
+* position each row
+------------------------------------------*/
+
+.row2 {
+    margin-top: 31px;
+}
+
+.row3 {
+    margin-top: 62px;
+}
+
+.row4 {
+    margin-top: 92px;
+}
+
+.row5 {
+    margin-top: 123px;
+}
+
+.row6 {
+    margin-top: 154px;
+}
+
+.row7 {
+    margin-top: 184px;
+}
+
+.row8 {
+    margin-top: 215px;
+}
+
+.row9 {
+    margin-top: 246px;
+}
+
+/*------------------------------------------
+* add color to each number and place bombs
+------------------------------------------*/
+
+.num1 {
+    color: #ff0000;
+}
+
+.num2 {
+    color: #00ff00;
+}
+
+.num3 {
+    color: #33ccff;
+}
+
+.num4 {
+    color: #ff33bb;
+}
+
+.num5 {
+    color: #ff4dff;
+}
+
+.num6 {
+    color: #a64dff;
+}
+
+.num7 {
+    color: #bbff33;
+}
+
+.num8 {
+    color: #ffbb33;
+}
+
+.bomb {
+    background-image: url(mine2.png);
+}
+
+/*------------------------------------------
+* Add top decorations
+------------------------------------------*/
+
+.top {
+    z-index: 2;
+    background: linear-gradient(to bottom, #001a66, #0039e6);
+    border: 1px solid #000033;
+}
+
+.top:active {
+    background: linear-gradient(to top, #001a66, #0039e6);
+}
+
+/*------------------------------------------
+* Interactions with the user
+------------------------------------------*/
+
+.remove {
+    display: none;
+}
+
+
+.lose {
+    display: block;
+    width: 277px;
+    height: 277px;
+    z-index: 3;
+    margin: auto;
+    opacity: 0.3;
+    position: absolute;
+    background-color: #ff0000;
+}
+
+.win {
+    display: block;
+    width: 277px;
+    height: 277px;
+    z-index: 3;
+    margin: auto;
+    opacity: 0.5;
+    position: absolute;
+    background-color: #00b300;
+}
+
+.flag {
+    background-image: url(packersMine.png);
+}

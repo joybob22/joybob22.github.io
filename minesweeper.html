@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Minesweeper</title>
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="minesweeper.css">
+        <meta charset="utf-8"></meta>
+    </head>
+    <body>
+        <h1>MINESWEEPER</h1>
+        
+        <div class="board-head">
+            <div class="flag-amount">
+                <h2 class="flag-count">Flags: 10</h2>
+            </div>
+            <div class="reset_button">
+                <h3>Reset</h3>
+            </div>
+        </div>
+        
+        <div class="board-body">
+             <div class="win_lose"></div>              
+                <ul class="row1">
+                    
+                    <!------------------------------------------
+    *               -  below board
+    <               -------------------------------------------->
+                    
+                    <li class="b1 p1"></li>
+                    <li class="b2 p2"></li>
+                    <li class="b3 p3"></li>
+                    <li class="b4 p4"></li>
+                    <li class="b5 p5"></li>
+                    <li class="b6 p6"></li>
+                    <li class="b7 p7"></li>
+                    <li class="b8 p8"></li>
+                    <li class="b9 p9"></li>
+                    
+                    <!------------------------------------------
+    *               -  above board
+    <               -------------------------------------------->
+    
+                    <li class="b1 top c1"></li>
+                    <li class="b2 top c2"></li>
+                    <li class="b3 top c3"></li>
+                    <li class="b4 top c4"></li>
+                    <li class="b5 top c5"></li>
+                    <li class="b6 top c6"></li>
+                    <li class="b7 top c7"></li>
+                    <li class="b8 top c8"></li>
+                    <li class="b9 top c9"></li>
+                </ul>
+                <ul class="row2">
+                    
+                    <!------------------------------------------
+    *               -  below board
+    <               -------------------------------------------->
+    
+                    <li class="b1 p10"></li>
+                    <li class="b2 p11"></li>
+                    <li class="b3 p12"></li>
+                    <li class="b4 p13"></li>
+                    <li class="b5 p14"></li>
+                    <li class="b6 p15"></li>
+                    <li class="b7 p16"></li>
+                    <li class="b8 p17"></li>
+                    <li class="b9 p18"></li>
+                    
+                    <!------------------------------------------
+    *               -  above board
+    <               -------------------------------------------->
+    
+                    <li class="b1 top c10"></li>
+                    <li class="b2 top c11"></li>
+                    <li class="b3 top c12"></li>
+                    <li class="b4 top c13"></li>
+                    <li class="b5 top c14"></li>
+                    <li class="b6 top c15"></li>
+                    <li class="b7 top c16"></li>
+                    <li class="b8 top c17"></li>
+                    <li class="b9 top c18"></li>
+                </ul>
+                <ul class="row3">
+                    
+                    <!------------------------------------------
+    *               -  below board
+    <               -------------------------------------------->
+    
+                    <li class="b1 p19"></li>
+                    <li class="b2 p20"></li>
+                    <li class="b3 p21"></li>
+                    <li class="b4 p22"></li>
+                    <li class="b5 p23"></li>
+                    <li class="b6 p24"></li>
+                    <li class="b7 p25"></li>
+                    <li class="b8 p26"></li>
+                    <li class="b9 p27"></li>
+                    
+                    <!------------------------------------------
+    *               -  above board
+    <               -------------------------------------------->
+    
+                    <li class="b1 top c19"></li>
+                    <li class="b2 top c20"></li>
+                    <li class="b3 top c21"></li>
+                    <li class="b4 top c22"></li>
+                    <li class="b5 top c23"></li>
+                    <li class="b6 top c24"></li>
+                    <li class="b7 top c25"></li>
+                    <li class="b8 top c26"></li>
+                    <li class="b9 top c27"></li>
+                </ul>
+                <ul class="row4">
+                    
+                    <!------------------------------------------
+    *               -  below board
+    <               -------------------------------------------->
+    
+                    <li class="b1 p28"></li>
+                    <li class="b2 p29"></li>
+                    <li class="b3 p30"></li>
+                    <li class="b4 p31"></li>
+                    <li class="b5 p32"></li>
+                    <li class="b6 p33"></li>
+                    <li class="b7 p34"></li>
+                    <li class="b8 p35"></li>
+                    <li class="b9 p36"></li>
+                    
+                    <!------------------------------------------
+    *               -  above board
+    <               -------------------------------------------->
+    
+                    <li class="b1 top c28"></li>
+                    <li class="b2 top c29"></li>
+                    <li class="b3 top c30"></li>
+                    <li class="b4 top c31"></li>
+                    <li class="b5 top c32"></li>
+                    <li class="b6 top c33"></li>
+                    <li class="b7 top c34"></li>
+                    <li class="b8 top c35"></li>
+                    <li class="b9 top c36"></li>
+                </ul>
+                <ul class="row5">
+                    
+                    <!------------------------------------------
+    *               -  below board
+    <               -------------------------------------------->
+    
+                    <li class="b1 p37"></li>
+                    <li class="b2 p38"></li>
+                    <li class="b3 p39"></li>
+                    <li class="b4 p40"></li>
+                    <li class="b5 p41"></li>
+                    <li class="b6 p42"></li>
+                    <li class="b7 p43"></li>
+                    <li class="b8 p44"></li>
+                    <li class="b9 p45"></li>
+                    
+                    <!------------------------------------------
+    *               -  above board
+    <               -------------------------------------------->
+    
+                    <li class="b1 top c37"></li>
+                    <li class="b2 top c38"></li>
+                    <li class="b3 top c39"></li>
+                    <li class="b4 top c40"></li>
+                    <li class="b5 top c41"></li>
+                    <li class="b6 top c42"></li>
+                    <li class="b7 top c43"></li>
+                    <li class="b8 top c44"></li>
+                    <li class="b9 top c45"></li>
+                </ul>
+                <ul class="row6">
+                    
+                    <!------------------------------------------
+    *               -  below board
+    <               -------------------------------------------->
+    
+                    <li class="b1 p46"></li>
+                    <li class="b2 p47"></li>
+                    <li class="b3 p48"></li>
+                    <li class="b4 p49"></li>
+                    <li class="b5 p50"></li>
+                    <li class="b6 p51"></li>
+                    <li class="b7 p52"></li>
+                    <li class="b8 p53"></li>
+                    <li class="b9 p54"></li>
+                    
+                    <!------------------------------------------
+    *               -  above board
+    <               -------------------------------------------->
+    
+                    <li class="b1 top c46"></li>
+                    <li class="b2 top c47"></li>
+                    <li class="b3 top c48"></li>
+                    <li class="b4 top c49"></li>
+                    <li class="b5 top c50"></li>
+                    <li class="b6 top c51"></li>
+                    <li class="b7 top c52"></li>
+                    <li class="b8 top c53"></li>
+                    <li class="b9 top c54"></li>
+                </ul>
+                <ul class="row7">
+                    
+                    <!------------------------------------------
+    *               -  below board
+    <               -------------------------------------------->
+    
+                    <li class="b1 p55"></li>
+                    <li class="b2 p56"></li>
+                    <li class="b3 p57"></li>
+                    <li class="b4 p58"></li>
+                    <li class="b5 p59"></li>
+                    <li class="b6 p60"></li>
+                    <li class="b7 p61"></li>
+                    <li class="b8 p62"></li>
+                    <li class="b9 p63"></li>
+                    
+                    <!------------------------------------------
+    *               -  above board
+    <               -------------------------------------------->
+    
+                    <li class="b1 top c55"></li>
+                    <li class="b2 top c56"></li>
+                    <li class="b3 top c57"></li>
+                    <li class="b4 top c58"></li>
+                    <li class="b5 top c59"></li>
+                    <li class="b6 top c60"></li>
+                    <li class="b7 top c61"></li>
+                    <li class="b8 top c62"></li>
+                    <li class="b9 top c63"></li>
+                </ul>
+                <ul class="row8">
+                    
+                    <!------------------------------------------
+    *               -  below board
+    <               -------------------------------------------->
+    
+                    <li class="b1 p64"></li>
+                    <li class="b2 p65"></li>
+                    <li class="b3 p66"></li>
+                    <li class="b4 p67"></li>
+                    <li class="b5 p68"></li>
+                    <li class="b6 p69"></li>
+                    <li class="b7 p70"></li>
+                    <li class="b8 p71"></li>
+                    <li class="b9 p72"></li>
+                    
+                    <!------------------------------------------
+    *               -  above board
+    <               -------------------------------------------->
+    
+                    <li class="b1 top c64"></li>
+                    <li class="b2 top c65"></li>
+                    <li class="b3 top c66"></li>
+                    <li class="b4 top c67"></li>
+                    <li class="b5 top c68"></li>
+                    <li class="b6 top c69"></li>
+                    <li class="b7 top c70"></li>
+                    <li class="b8 top c71"></li>
+                    <li class="b9 top c72"></li>
+                </ul>
+                <ul class="row9">
+                    
+                    <!------------------------------------------
+    *               -  below board
+    <               -------------------------------------------->
+    
+                    <li class="b1 p73"></li>
+                    <li class="b2 p74"></li>
+                    <li class="b3 p75"></li>
+                    <li class="b4 p76"></li>
+                    <li class="b5 p77"></li>
+                    <li class="b6 p78"></li>
+                    <li class="b7 p79"></li>
+                    <li class="b8 p80"></li>
+                    <li class="b9 p81"></li>
+                    
+                    <!------------------------------------------
+    *               -  above board
+    <               -------------------------------------------->
+    
+                    <li class="b1 top c73"></li>
+                    <li class="b2 top c74"></li>
+                    <li class="b3 top c75"></li>
+                    <li class="b4 top c76"></li>
+                    <li class="b5 top c77"></li>
+                    <li class="b6 top c78"></li>
+                    <li class="b7 top c79"></li>
+                    <li class="b8 top c80"></li>
+                    <li class="b9 top c81"></li>
+                </ul>
+            
+        </div>
+        <p class="version">V1.1.0 Made by Brayden Lemke</p>
+        <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script> 
+        <script type="application/javascript" src="minesweeper.js"></script>
+    </body>
+</html>
