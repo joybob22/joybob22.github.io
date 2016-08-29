@@ -236,6 +236,10 @@ $(document).ready(function() {
             //look right
             if(!($(".c" + (num + 1)).hasClass("remove"))){
                 $(".c" + (num + 1)).addClass("remove");
+                if(($(".c" + (num + 1)).hasClass("flag"))){
+                    $(".c" + (num + 1)).removeClass("flag");
+                    flags++;
+                }
                 clearSpace($(".p" + (num + 1)), (num + 1));
             }
         }
@@ -244,6 +248,10 @@ $(document).ready(function() {
             //look left
             if(!($(".c" + (num - 1)).hasClass("remove"))){
                 $(".c" + (num - 1)).addClass("remove");
+                if(($(".c" + (num - 1)).hasClass("flag"))){
+                    $(".c" + (num - 1)).removeClass("flag");
+                    flags++;
+                }
                 clearSpace($(".p" + (num - 1)), (num - 1));
             }
         }
@@ -252,6 +260,10 @@ $(document).ready(function() {
             //look down
             if(!($(".c" + (num + 9)).hasClass("remove"))){
                 $(".c" + (num + 9)).addClass("remove");
+                if(($(".c" + (num + 9)).hasClass("flag"))){
+                    $(".c" + (num + 9)).removeClass("flag");
+                    flags++;
+                }
                 clearSpace($(".p" + (num + 9)), (num + 9));
             }
         }
@@ -260,6 +272,10 @@ $(document).ready(function() {
             //look bottom right
             if(!($(".c" + (num + 10)).hasClass("remove"))){
                 $(".c" + (num + 10)).addClass("remove");
+                if(($(".c" + (num + 10)).hasClass("flag"))){
+                    $(".c" + (num + 10)).removeClass("flag");
+                    flags++;
+                }
                 clearSpace($(".p" + (num + 10)), (num + 10));
             }
         }
@@ -268,6 +284,10 @@ $(document).ready(function() {
             //look bottom left
             if(!($(".c" + (num + 8)).hasClass("remove"))){
                 $(".c" + (num + 8)).addClass("remove");
+                if(($(".c" + (num + 8)).hasClass("flag"))){
+                    $(".c" + (num + 8)).removeClass("flag");
+                    flags++;
+                }
                 clearSpace($(".p" + (num + 8)), (num + 8));
             }
         }
@@ -276,6 +296,10 @@ $(document).ready(function() {
             //look top
             if(!($(".c" + (num - 9)).hasClass("remove"))){
                 $(".c" + (num - 9)).addClass("remove");
+                if(($(".c" + (num - 9)).hasClass("flag"))){
+                    $(".c" + (num - 9)).removeClass("flag");
+                    flags++;
+                }
                 clearSpace($(".p" + (num - 9)), (num - 9));
             }
         }
@@ -284,6 +308,10 @@ $(document).ready(function() {
             //look top right
             if(!($(".c" + (num - 8)).hasClass("remove"))){
                 $(".c" + (num - 8)).addClass("remove");
+                if(($(".c" + (num - 8)).hasClass("flag"))){
+                    $(".c" + (num - 8)).removeClass("flag");
+                    flags++;
+                }
                 clearSpace($(".p" + (num - 8)), (num - 8));
             }
         }
@@ -292,6 +320,10 @@ $(document).ready(function() {
             //look top left
             if(!($(".c" + (num - 10)).hasClass("remove"))){
                 $(".c" + (num - 10)).addClass("remove");
+                if(($(".c" + (num - 10)).hasClass("flag"))){
+                    $(".c" + (num - 10)).removeClass("flag");
+                    flags++;
+                }
                 clearSpace($(".p" + (num - 10)), (num - 10));
             }
         }
@@ -413,6 +445,7 @@ $(document).ready(function() {
                 }
                 if($(".p" + num).hasClass("blank")){
                     clearSpace($(".p" + num), num);
+                    $(".flag-count").text("Flags: " + flags);
                 }
             }
             if(solved()){
