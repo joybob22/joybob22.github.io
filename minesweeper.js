@@ -333,12 +333,18 @@ $(document).ready(function() {
                 return true;
             }
             else if($(space).is(".p1")){
-                $(".c2").addClass("remove");
-                clearSpace($(".p2"), (num + 1));
-                $(".c11").addClass("remove");
-                clearSpace($(".p11"), (num + 10));
-                $(".c10").addClass("remove");
-                clearSpace($(".p10"), (num + 9));
+                
+                //comments are left in here just in case V1.2.1 doesn't work.
+                
+                //$(".c2").addClass("remove");
+                //clearSpace($(".p2"), (num + 1));
+                lookRight(num);
+                //$(".c11").addClass("remove");
+                //clearSpace($(".p11"), (num + 10));
+                lookBottomRight(num);
+                //$(".c10").addClass("remove");
+                //clearSpace($(".p10"), (num + 9));
+                lookDown(num);
             }
             else if($(space).is(".p2, .p3, .p4, .p5, .p6, .p7, .p8")){
                 lookRight(num);
